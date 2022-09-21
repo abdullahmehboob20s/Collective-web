@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .container {
+    @apply w-[90%] mx-auto;
+  }
+
+  .fs-16px {
+    @apply text-[1.171303074670571vw];
+  }
+
+  .fs-60px {
+    @apply text-[4.392386530014641vw];
+  }
+
+  .fs-80px {
+    @apply text-[5.856515373352855vw];
+  }
+}
