@@ -1,10 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  .container {
-    @apply w-[90%] mx-auto;
+  * {
+    @apply text-white font-source-sans-pro;
+  }
+
+  body {
+    @apply bg-body-bg text-white;
+  }
+
+  html {
+    @apply bg-body-bg text-white;
   }
 
   .fs-16px {
@@ -17,5 +27,11 @@
 
   .fs-80px {
     @apply text-[5.856515373352855vw];
+  }
+}
+
+@layer components {
+  .container-wrapper {
+    @apply w-[88%] mx-auto;
   }
 }
