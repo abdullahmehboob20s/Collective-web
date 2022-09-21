@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
+import { HiOutlineChevronDown } from "react-icons/hi";
 
 function Hero() {
   return (
@@ -26,6 +27,10 @@ function Hero() {
           </div>
         </div>
       </div>
+
+      <button className="absolute bottom-1_6vw left-1/2 -translate-x-1/2 fs-30px">
+        <HiOutlineChevronDown />
+      </button>
 
       <img
         src="images/hero-banner.png"
