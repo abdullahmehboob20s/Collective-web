@@ -18,28 +18,28 @@ function App() {
       <div className="mb-9 lg:mb-50px">
         <Hero />
       </div>
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px" id="down">
         <Comitted />
       </div>
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px" id="Memberships">
         <Membership />
       </div>
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px">
         <CarefullyDesigned />
       </div>
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px">
         <OurSpaces />
       </div>
-      {/* <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px">
         <Evolving />
       </div>
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px">
         <Partners />
       </div>
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px">
         <Tokenomics />
       </div>
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px">
         <div className="container-wrapper">
           <HeadingAndTitle
             reverse={true}
@@ -64,13 +64,13 @@ function App() {
         </div>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-24 lg:mb-150px">
         <Gallery />
       </div>
 
-      <div className="mb- lg:mb-50px">
+      <div className="mb-14 lg:mb-50px">
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }

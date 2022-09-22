@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import { HiOutlineChevronDown } from "react-icons/hi";
+import { Link as ScrollLink } from "react-scroll";
 
 function Hero() {
   return (
@@ -30,9 +31,13 @@ function Hero() {
         </div>
       </div>
 
-      <button className="absolute bottom-6 lg:bottom-1_6vw left-1/2 -translate-x-1/2 text-2xl lg:text-30px">
+      <ScrollLink
+        to="down"
+        offset={-200}
+        className="cursor-pointer absolute bottom-6 lg:bottom-1_6vw left-1/2 -translate-x-1/2 text-2xl lg:text-30px"
+      >
         <HiOutlineChevronDown />
-      </button>
+      </ScrollLink>
 
       <img
         src="images/hero-banner.png"

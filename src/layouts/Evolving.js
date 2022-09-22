@@ -5,7 +5,7 @@ function Evolving() {
   return (
     <div className="container-wrapper">
       <HeadingAndTitle
-        headingWidth="w-[96%]"
+        headingWidth="sm:w-[96%]"
         titleMaxWidth="max-w-[20em]"
         heading={
           <>

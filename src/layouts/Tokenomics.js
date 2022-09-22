@@ -12,7 +12,7 @@ function Tokenomics() {
   return (
     <div>
       <div className="container-wrapper">
-        <div className="mb-3vw">
+        <div className="mb-10 lg:mb-3vw">
           <Slider
             slidesPerView={1}
             spaceBetween={20}
