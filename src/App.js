@@ -27,10 +27,10 @@ function App() {
       <div className="mb-150px">
         <CarefullyDesigned />
       </div>
-      {/* <div className="mb-150px">
+      <div className="mb-150px">
         <OurSpaces />
       </div>
-      <div className="mb-150px">
+      {/* <div className="mb-150px">
         <Evolving />
       </div>
       <div className="mb-150px">

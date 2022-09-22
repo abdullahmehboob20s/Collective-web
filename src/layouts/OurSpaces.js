@@ -12,18 +12,27 @@ function OurSpaces() {
   return (
     <div>
       <div className="container-wrapper">
-        <div className="mb-50px">
+        <div className="mb-10 lg:mb-50px">
           <TitleBar title="Explore our spaces" />
         </div>
       </div>
 
       <div>
-        <div className="mb-3vw ml-6vw">
+        <div className="mb-12 lg:mb-3vw ml-6vw">
           <Slider
             slidesPerView={1.75}
             spaceBetween={20}
             prevRef={prevRef}
             nextRef={nextRef}
+            breakpoints={{
+              768: {
+                slidesPerView: 1.75,
+              },
+              200: {
+                slidesPerView: 1.2,
+                spaceBetween: 30,
+              },
+            }}
           >
             <SwiperSlide>
               <MembershipCard
