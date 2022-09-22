@@ -11,7 +11,8 @@ function HeadingAndTitle({
     <div>
       <div className={`${reverse ? null : headingWidth}`}>
         <p
-          className={`text-xl md:text-2xl lg:text-44px font-light mb-6 lg:mb-3vw leading-1_3 ${
+          style={{ lineHeight: 1.3 }}
+          className={`text-xl md:text-2xl lg:text-44px font-light mb-6 lg:mb-3vw ${
             reverse ? `${headingWidth} ml-auto` : ""
           }`}
         >
