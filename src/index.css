@@ -22,7 +22,7 @@
   }
 
   .fs-16px {
-    @apply text-[1.171303074670571vw];
+    @apply text-base lg:text-[1.171303074670571vw];
   }
 
   .fs-18px {
@@ -30,7 +30,7 @@
   }
 
   .fs-20px {
-    @apply text-[1.4641288433382138vw];
+    @apply text-lg lg:text-[1.4641288433382138vw];
   }
 
   .fs-24px {
@@ -58,4 +58,20 @@
   .container-wrapper {
     @apply w-[88%] mx-auto;
   }
+}
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+.black-screen.show {
+  opacity: 1;
+  pointer-events: visible;
 }
