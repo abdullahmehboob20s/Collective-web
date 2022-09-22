@@ -2,6 +2,7 @@ import HeadingAndTitle from "components/HeadingAndTitle";
 import CarefullyDesigned from "layouts/CarefullyDesigned";
 import Comitted from "layouts/Comitted";
 import Evolving from "layouts/Evolving";
+import Gallery from "layouts/Gallery";
 import Hero from "layouts/Hero";
 import Membership from "layouts/Membership";
 import Navbar from "layouts/Navbar";
@@ -60,6 +61,10 @@ function App() {
             }
           />
         </div>
+      </div>
+
+      <div className="mb-150px">
+        <Gallery />
       </div>
     </div>
   );
