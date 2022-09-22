@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="mb-50px">
+      {/* <div className="mb-50px">
         <Hero />
       </div>
       <div className="mb-150px">
@@ -70,7 +70,7 @@ function App() {
 
       <div className="mb-50px">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
