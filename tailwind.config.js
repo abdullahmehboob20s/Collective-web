@@ -11,6 +11,7 @@ module.exports = {
       white: "white",
       black: "black",
       transparent: "transparent",
+      blue: "#81C4EA",
     },
     lineHeight: {
       1: 1,
