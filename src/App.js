@@ -21,10 +21,10 @@ function App() {
       <div className="mb-150px">
         <Comitted />
       </div>
-      {/* <div className="mb-150px">
+      <div className="mb-150px">
         <Membership />
       </div>
-      <div className="mb-150px">
+      {/* <div className="mb-150px">
         <CarefullyDesigned />
       </div>
       <div className="mb-150px">

@@ -12,18 +12,32 @@ function Membership() {
   return (
     <div>
       <div className="container-wrapper">
-        <div className="mb-50px">
+        <div className="mb-12 sm:mb-9 lg:mb-50px">
           <TitleBar title="Explore our memberships" />
         </div>
       </div>
 
       <div>
-        <div className="mb-3vw ml-6vw">
+        <div className="mb-10 lg:mb-3vw ml-6vw">
           <Slider
             slidesPerView={2.5}
             spaceBetween={20}
             prevRef={prevRef}
             nextRef={nextRef}
+            breakpoints={{
+              1024: {
+                slidesPerView: 2.5,
+              },
+
+              500: {
+                slidesPerView: 1.8,
+                spaceBetween: 30,
+              },
+              300: {
+                slidesPerView: 1.2,
+                spaceBetween: 30,
+              },
+            }}
           >
             <SwiperSlide>
               <MembershipCard

@@ -5,7 +5,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 function MembershipCard({ min, max, title, desc }) {
   return (
     <div className="">
-      <div className="mb-1_4vw">
+      <div className="mb-6 lg:mb-1_4vw">
         <img
           src="images/hero-banner.png"
           className="w-full object-cover h-[26vw]"
@@ -13,7 +13,7 @@ function MembershipCard({ min, max, title, desc }) {
         />
       </div>
 
-      <div className="flex items-center space-x-1_2vw pb-1vw border-b-2 border-white mb-1vw">
+      <div className="flex items-center space-x-4 lg:space-x-1_2vw pb-4 lg:pb-1vw border-b-2 border-white mb-1vw">
         <p className="fs-20px font-light">{title}</p>
         {!min || !max ? null : (
           <CapacityCard

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function TitleBar({ title }) {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex flex-col sm:flex-row items-start space-y-5 sm:space-y-0 sm:items-center justify-between">
       <h1 className="fs-44px text-white font-light">{title}</h1>
       <Button title="Enquire" />
     </div>
