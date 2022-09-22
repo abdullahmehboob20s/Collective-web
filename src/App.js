@@ -3,6 +3,7 @@ import Comitted from "layouts/Comitted";
 import Hero from "layouts/Hero";
 import Membership from "layouts/Membership";
 import Navbar from "layouts/Navbar";
+import OurSpaces from "layouts/OurSpaces";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </div>
       <div className="mb-150px">
         <CarefullyDesigned />
+      </div>
+      <div className="mb-150px">
+        <OurSpaces />
       </div>
     </div>
   );
