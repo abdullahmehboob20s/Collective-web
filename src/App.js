@@ -6,6 +6,7 @@ import Membership from "layouts/Membership";
 import Navbar from "layouts/Navbar";
 import OurSpaces from "layouts/OurSpaces";
 import Partners from "layouts/Partners";
+import Tokenomics from "layouts/Tokenomics";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       </div>
       <div className="mb-150px">
         <Partners />
+      </div>
+      <div className="mb-150px">
+        <Tokenomics />
       </div>
     </div>
   );
