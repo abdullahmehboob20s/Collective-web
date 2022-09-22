@@ -8,16 +8,18 @@ function Hero() {
       <div className="container-wrapper flex items-center justify-center">
         <div>
           <div>
-            <h2 className="fs-60px leading-1 pl-5vw font-light uppercase">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-60px lg:leading-1 sm:pl-5vw text-center sm:text-left font-light uppercase mb-2 lg:mb-1vw">
               Coworking for
             </h2>
-            <h1 className="fs-80px font-bold uppercase">Corporate companies</h1>
+            <h1 className="text-[1.6rem] sm:text-4xl md:text-5xl lg:text-80px font-bold uppercase mb-2 lg:mb-1vw text-center">
+              Corporate companies
+            </h1>
           </div>
-          <div className="flex items-center justify-center space-x-2vw mb-4vw">
-            <p className="fs-16px font-light uppercase">
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-2vw mb-10 lg:mb-4vw">
+            <p className="text-sm text-center sm:text-left md:text-16px font-light uppercase">
               The perfect step <br /> into the future of{" "}
             </p>
-            <h2 className="fs-60px leading-1 font-light uppercase">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-60px lg:leading-1 font-light uppercase">
               Hybrid work life
             </h2>
           </div>
@@ -28,7 +30,7 @@ function Hero() {
         </div>
       </div>
 
-      <button className="absolute bottom-1_6vw left-1/2 -translate-x-1/2 fs-30px">
+      <button className="absolute bottom-6 lg:bottom-1_6vw left-1/2 -translate-x-1/2 text-2xl lg:text-30px">
         <HiOutlineChevronDown />
       </button>
 
