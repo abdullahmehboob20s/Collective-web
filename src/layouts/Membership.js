@@ -26,19 +26,44 @@ function Membership() {
             nextRef={nextRef}
           >
             <SwiperSlide>
-              <MembershipCard min="2" max="20" />
+              <MembershipCard
+                title="Private office"
+                desc=" This option is available to teams of any size. Private offices come fully furnished with desks, chairs, and shelves."
+                min="2"
+                max="20"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard min="2" max="20" />
+              <MembershipCard
+                title="Private office"
+                desc=" This option is available to teams of any size. Private offices come fully furnished with desks, chairs, and shelves."
+                min="2"
+                max="20"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard min="2" max="20" />
+              <MembershipCard
+                title="Private office"
+                desc=" This option is available to teams of any size. Private offices come fully furnished with desks, chairs, and shelves."
+                min="2"
+                max="20"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard min="2" max="20" />
+              <MembershipCard
+                title="Private office"
+                desc=" This option is available to teams of any size. Private offices come fully furnished with desks, chairs, and shelves."
+                min="2"
+                max="20"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard min="2" max="20" />
+              <MembershipCard
+                title="Private office"
+                desc=" This option is available to teams of any size. Private offices come fully furnished with desks, chairs, and shelves."
+                min="2"
+                max="20"
+              />
             </SwiperSlide>
           </Slider>
         </div>
