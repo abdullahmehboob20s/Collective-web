@@ -17,6 +17,10 @@
     @apply bg-body-bg text-white;
   }
 
+  .fs-inherit {
+    font-size: inherit;
+  }
+
   .fs-16px {
     @apply text-[1.171303074670571vw];
   }
