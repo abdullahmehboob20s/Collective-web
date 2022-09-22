@@ -11,14 +11,16 @@ function HeadingAndTitle({
     <div>
       <div className={`${reverse ? null : headingWidth}`}>
         <p
-          className={`fs-44px font-light mb-3vw leading-1_3 ${
+          className={`text-xl md:text-2xl lg:text-44px font-light mb-6 lg:mb-3vw leading-1_3 ${
             reverse ? `${headingWidth} ml-auto` : ""
           }`}
         >
           {heading}
         </p>
         <div className={`flex ${reverse ? "justify-start" : "justify-end"}`}>
-          <p className={`fs-18px font-light ${titleMaxWidth}`}>{title}</p>
+          <p className={`text-sm lg:text-18px font-light ${titleMaxWidth}`}>
+            {title}
+          </p>
         </div>
       </div>
     </div>
