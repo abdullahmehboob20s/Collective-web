@@ -2,7 +2,7 @@ import CapacityCard from "components/CapacityCard";
 import React from "react";
 import { BsFillPersonFill } from "react-icons/bs";
 
-function MembershipCard({ min, max }) {
+function MembershipCard({ min, max, title, desc }) {
   return (
     <div className="">
       <div className="mb-1_4vw">
@@ -14,7 +14,7 @@ function MembershipCard({ min, max }) {
       </div>
 
       <div className="flex items-center space-x-1_2vw pb-1vw border-b-2 border-white mb-1vw">
-        <p className="fs-20px font-light">Private office</p>
+        <p className="fs-20px font-light">{title}</p>
         {!min || !max ? null : (
           <CapacityCard
             min={min}
@@ -24,10 +24,7 @@ function MembershipCard({ min, max }) {
         )}
       </div>
 
-      <p className="fs-16px font-light">
-        This option is available to teams of any size. Private offices come
-        fully furnished with desks, chairs, and shelves.{" "}
-      </p>
+      <p className="fs-16px font-light">{desc}</p>
     </div>
   );
 }
