@@ -2,7 +2,7 @@ import CapacityCard from "components/CapacityCard";
 import React from "react";
 import { BsFillPersonFill } from "react-icons/bs";
 
-function MembershipCard() {
+function MembershipCard({ min, max }) {
   return (
     <div className="">
       <div className="mb-1_4vw">
@@ -15,11 +15,13 @@ function MembershipCard() {
 
       <div className="flex items-center space-x-1_2vw pb-1vw border-b-2 border-white mb-1vw">
         <p className="fs-20px font-light">Private office</p>
-        <CapacityCard
-          min="2"
-          max="20"
-          Icon={() => <BsFillPersonFill className="text-[1em] fill-blue" />}
-        />
+        {!min || !max ? null : (
+          <CapacityCard
+            min={min}
+            max={max}
+            Icon={() => <BsFillPersonFill className="text-[1em] fill-blue" />}
+          />
+        )}
       </div>
 
       <p className="fs-16px font-light">
