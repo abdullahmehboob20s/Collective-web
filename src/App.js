@@ -5,6 +5,7 @@ import Hero from "layouts/Hero";
 import Membership from "layouts/Membership";
 import Navbar from "layouts/Navbar";
 import OurSpaces from "layouts/OurSpaces";
+import Partners from "layouts/Partners";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div className="mb-150px">
         <Evolving />
+      </div>
+      <div className="mb-150px">
+        <Partners />
       </div>
     </div>
   );
