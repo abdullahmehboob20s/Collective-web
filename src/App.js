@@ -1,3 +1,4 @@
+import HeadingAndTitle from "components/HeadingAndTitle";
 import CarefullyDesigned from "layouts/CarefullyDesigned";
 import Comitted from "layouts/Comitted";
 import Evolving from "layouts/Evolving";
@@ -35,6 +36,30 @@ function App() {
       </div>
       <div className="mb-150px">
         <Tokenomics />
+      </div>
+      <div className="mb-150px">
+        <div className="container-wrapper">
+          <HeadingAndTitle
+            reverse={true}
+            heading={
+              <>
+                Whilst we can tell you our space was designed carefully, to
+                bring the best balance of living and productivity,{" "}
+                <span className="text-blue">
+                  it is much easier to simply show you{" "}
+                </span>
+                .{" "}
+              </>
+            }
+            title={
+              <>
+                We know not all work happens the same, sometime you need a space
+                to collaborate, other times a desk is completely appropriate, no
+                one always needs the same.{" "}
+              </>
+            }
+          />
+        </div>
       </div>
     </div>
   );
