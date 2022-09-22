@@ -15,13 +15,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="mb-50px">
+      <div className="mb-9 lg:mb-50px">
         <Hero />
       </div>
-      {/* <div className="mb-150px">
+      <div className="mb-150px">
         <Comitted />
       </div>
-      <div className="mb-150px">
+      {/* <div className="mb-150px">
         <Membership />
       </div>
       <div className="mb-150px">
@@ -68,7 +68,7 @@ function App() {
         <Gallery />
       </div>
 
-      <div className="mb-50px">
+      <div className="mb- lg:mb-50px">
         <Footer />
       </div> */}
     </div>
