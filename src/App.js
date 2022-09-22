@@ -1,3 +1,4 @@
+import CarefullyDesigned from "layouts/CarefullyDesigned";
 import Comitted from "layouts/Comitted";
 import Hero from "layouts/Hero";
 import Membership from "layouts/Membership";
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div className="mb-150px">
         <Membership />
+      </div>
+      <div className="mb-150px">
+        <CarefullyDesigned />
       </div>
     </div>
   );
