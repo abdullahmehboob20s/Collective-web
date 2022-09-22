@@ -46,11 +46,11 @@
   }
 
   .fs-60px {
-    @apply text-[4.392386530014641vw];
+    @apply text-3xl md:text-4xl lg:text-[4.392386530014641vw];
   }
 
   .fs-80px {
-    @apply text-[5.856515373352855vw];
+    @apply text-4xl md:text-5xl lg:text-[5.856515373352855vw];
   }
 }
 
