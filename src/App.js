@@ -1,12 +1,17 @@
-import React from "react";
-import Hero from "./layouts/Hero";
-import Navbar from "./layouts/Navbar";
+import Comitted from "layouts/Comitted";
+import Hero from "layouts/Hero";
+import Navbar from "layouts/Navbar";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <div className="mb-4vw">
+        <Hero />
+      </div>
+      <div className="mb-6vw">
+        <Comitted />
+      </div>
     </div>
   );
 }
