@@ -26,19 +26,19 @@ function Membership() {
             nextRef={nextRef}
           >
             <SwiperSlide>
-              <MembershipCard />
+              <MembershipCard min="2" max="20" />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard />
+              <MembershipCard min="2" max="20" />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard />
+              <MembershipCard min="2" max="20" />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard />
+              <MembershipCard min="2" max="20" />
             </SwiperSlide>
             <SwiperSlide>
-              <MembershipCard />
+              <MembershipCard min="2" max="20" />
             </SwiperSlide>
           </Slider>
         </div>
