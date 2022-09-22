@@ -1,5 +1,6 @@
 import CarefullyDesigned from "layouts/CarefullyDesigned";
 import Comitted from "layouts/Comitted";
+import Evolving from "layouts/Evolving";
 import Hero from "layouts/Hero";
 import Membership from "layouts/Membership";
 import Navbar from "layouts/Navbar";
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div className="mb-150px">
         <OurSpaces />
+      </div>
+      <div className="mb-150px">
+        <Evolving />
       </div>
     </div>
   );
