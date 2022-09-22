@@ -7,7 +7,7 @@ function CarefullyDesigned() {
       <div className="container-wrapper">
         <HeadingAndTitle
           reverse={true}
-          headingWidth="w-[92%]"
+          headingWidth="sm:w-[92%]"
           titleMaxWidth="max-w-[20em]"
           heading={
             <>

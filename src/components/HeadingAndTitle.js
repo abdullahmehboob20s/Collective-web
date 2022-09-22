@@ -4,7 +4,7 @@ function HeadingAndTitle({
   heading,
   title,
   reverse = false,
-  headingWidth = "w-[90%]",
+  headingWidth = "sm:w-[90%]",
   titleMaxWidth = "max-w-[18em]",
 }) {
   return (
