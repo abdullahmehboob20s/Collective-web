@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "./Button";
 import { IoClose } from "react-icons/io5";
