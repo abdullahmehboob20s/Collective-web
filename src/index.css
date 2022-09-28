@@ -38,7 +38,7 @@
   }
 
   .fs-30px {
-    @apply text-2xl lg:text-[2.1961932650073206vw];
+    @apply text-lg sm:text-xl md:text-2xl lg:text-[2.1961932650073206vw];
   }
 
   .fs-44px {
