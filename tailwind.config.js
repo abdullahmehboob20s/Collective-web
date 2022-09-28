@@ -63,6 +63,10 @@ module.exports = {
         "30px": "2.1961932650073206vw",
         "44px": "3.22108345534407vw",
       },
+      borderWidth: {
+        "1px": "1px",
+        "1pxToVw": ".1vw",
+      },
     },
   },
   plugins: [],
