@@ -31,7 +31,12 @@ function Navbar() {
       }`}
     >
       <div className="container-wrapper flex items-center justify-between">
-        <h4 className="fs-20px font-bold">collective_100</h4>
+        <div className="flex items-center space-x-2vw">
+          <button className="text-[1.8vw] text-white">
+            <FiMenu />
+          </button>
+          <h4 className="fs-20px font-bold">collective_100</h4>
+        </div>
 
         <button
           className="flex lg:hidden text-xl"

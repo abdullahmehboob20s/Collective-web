@@ -4,6 +4,45 @@
 @tailwind components;
 @tailwind utilities;
 
+.lh-1 {
+  line-height: 1 !important;
+}
+.lh-1_1 {
+  line-height: 1.1 !important;
+}
+.lh-1_2 {
+  line-height: 1.2 !important;
+}
+.lh-1_3 {
+  line-height: 1.3 !important;
+}
+.lh-1_4 {
+  line-height: 1.4 !important;
+}
+.lh-1_5 {
+  line-height: 1.5 !important;
+}
+.lh-1_6 {
+  line-height: 1.6 !important;
+}
+.lh-1_7 {
+  line-height: 1.7 !important;
+}
+.lh-1_8 {
+  line-height: 1.8 !important;
+}
+.lh-1_9 {
+  line-height: 1.9 !important;
+}
+
+p {
+  line-height: 1.5 !important;
+}
+
+a {
+  line-height: 1.3 !important;
+}
+
 @layer base {
   * {
     @apply text-white font-source-sans-pro scroll-smooth;
@@ -51,6 +90,10 @@
 
   .fs-80px {
     @apply text-4xl md:text-5xl lg:text-[5.856515373352855vw];
+  }
+
+  .bullet {
+    @apply flex items-center text-base md:text-lg lg:text-[1.4641288433382138vw] text-white opacity-80 font-light before:content-[''] before:min-w-[.3em] before:h-[.3em] before:rounded-full before:bg-white before:mr-3 lg:before:mr-0_8vw;
   }
 }
 

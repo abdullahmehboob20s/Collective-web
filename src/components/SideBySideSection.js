@@ -13,7 +13,7 @@ function SideBySideSection(props) {
 
   return (
     <div>
-      <div className={`container-wrapper ${layout} ${spacing}`}>
+      <div className={`${layout} ${spacing}`}>
         {SectionLeft && <SectionLeft />}
         {SectionRight && <SectionRight />}
       </div>

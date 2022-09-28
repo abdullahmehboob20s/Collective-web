@@ -101,7 +101,7 @@ function Footer() {
           </div>
 
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <p className="text-sm lg:text-16px font-light">
+            <p className="text-sm lg:text-16px font-light text-center sm:text-left">
               © 2022 collective_100. Developed by Ten Squared.
             </p>
 

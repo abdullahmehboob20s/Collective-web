@@ -14,7 +14,7 @@ const RightSection = () => {
     <div className="flex items-end">
       <div>
         <h1
-          className="fs-44px text-white font-light mb-1_6vw"
+          className="fs-44px text-white font-light mb-4 lg:mb-1_6vw"
           style={{ lineHeight: 1.3 }}
         >
           A vibrand welcome every single time.
@@ -34,8 +34,9 @@ const RightSection = () => {
 
 function Vibrand() {
   return (
-    <div>
+    <div className="container-wrapper">
       <SideBySideSection
+        spacing="gap-5 lg:gap-4vw"
         SectionLeft={LeftSection}
         SectionRight={RightSection}
       />
